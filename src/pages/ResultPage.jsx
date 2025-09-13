@@ -19,7 +19,7 @@ export default function ResultPage() {
             <h1>Result</h1>
             <Result maxQuizLen={maxQuizLen} correctNumLen={correctNumLen}></Result>
             <br />
-            <Link to={ROUTES.QUIZ}>もう一度チャレンジ</Link>
+            <Link to={ROUTES.HOME}>もう一度チャレンジ</Link>
         </>
     )
 }
