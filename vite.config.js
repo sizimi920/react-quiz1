@@ -7,7 +7,7 @@ export default defineConfig(({ command }) => {
         server: {
             open: "/"
         },
-        base: command === "build" ? "/quiz/" : "/", // build時だけ /quiz/
+        base: command === "build" ? "/react-quiz/" : "/", // build時だけ /quiz/
         plugins: [react()],
     }
 })
