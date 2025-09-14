@@ -2,12 +2,12 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
-export default defineConfig(({ command }) => {
+export default defineConfig() => {
     return {
         server: {
             open: "/"
         },
-        base: command === "build" ? "/react-quiz/" : "/", // build時だけ /quiz/
+        base: "/react-quiz/", // build時だけ /quiz/
         plugins: [react()],
     }
 })
