@@ -74,6 +74,9 @@ export default function QuizPage() {
                 onClick={() => handleClick(index)}
                 disabled={isAnswering}
                 className={styles.optionButton}
+                ariaLabel={`選択肢 ${String.fromCharCode(
+                  65 + index
+                )} ${option}`}
               >
                 <span className={styles.optionNumber}>
                   {String.fromCharCode(65 + index)}
