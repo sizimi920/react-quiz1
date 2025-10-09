@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react';
 // https://vite.dev/config/
 export default defineConfig({
   server: {
-    open: '/react-quiz/',
+    open: '/',
   },
-  base: '/react-quiz/', // GitHub Pages用の設定
+  base: '/', // Vercel用の設定（ルートパス）
   plugins: [react()],
 });

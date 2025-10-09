@@ -70,17 +70,44 @@ cmd /c "npm run dev"
 npm run dev
 ```
 
-アプリケーションは `http://localhost:5173/react-quiz/` で利用できます。
+アプリケーションは `http://localhost:5173/` で利用できます。
 
 ## 📦 ビルドとデプロイ
 
+### ローカルビルド
+
+```bash
 ```bash
 # プロダクションビルド
 npm run build
 
 # ビルド結果をローカルでプレビュー
 npm run preview
+```
 
+### Vercelへのデプロイ
+
+1. [Vercel](https://vercel.com)にアカウントを作成
+2. GitHubリポジトリをVercelに接続
+3. 自動デプロイが設定されます
+
+または、Vercel CLIを使用：
+
+```bash
+```bash
+# Vercel CLIをインストール
+npm i -g vercel
+
+# デプロイ
+vercel
+
+# プロダクション環境にデプロイ
+vercel --prod
+```
+
+### GitHub Pagesへのデプロイ
+
+```bash
 # GitHub Pagesにデプロイ
 npm run deploy
 ```

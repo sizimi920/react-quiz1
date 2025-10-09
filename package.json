@@ -9,7 +9,8 @@
         "lint": "eslint .",
         "preview": "vite preview",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist"
+        "deploy": "gh-pages -d dist",
+        "vercel-build": "vite build"
     },
     "dependencies": {
         "react": "^19.0.0",
@@ -29,6 +30,9 @@
         "gh-pages": "^6.3.0",
         "globals": "^15.15.0",
         "vite": "^6.2.0"
+    },
+    "engines": {
+        "node": ">=18"
     },
     "homepage": "https://sizimi920.github.io/react-quiz/"
 }

@@ -7,7 +7,7 @@ import { ROUTES } from './const';
 
 function App() {
   return (
-    <BrowserRouter basename="/react-quiz">
+    <BrowserRouter>
       <Routes>
         <Route path={ROUTES.HOME} element={<HomePage />} />
         <Route path={ROUTES.QUIZ} element={<QuizPage />} />
