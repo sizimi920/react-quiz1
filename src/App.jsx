@@ -1,22 +1,20 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import './App.css'
-import ResultPage from './pages/ResultPage'
-import HomePage from './pages/HomePage.'
-import QuizPage from './pages/QuizPage'
-import { ROUTES } from './const'
-
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import './App.css';
+import ResultPage from './pages/ResultPage';
+import HomePage from './pages/HomePage.';
+import QuizPage from './pages/QuizPage';
+import { ROUTES } from './const';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-quiz">
       <Routes>
         <Route path={ROUTES.HOME} element={<HomePage />} />
         <Route path={ROUTES.QUIZ} element={<QuizPage />} />
         <Route path={ROUTES.RESULT} element={<ResultPage />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
