@@ -4,7 +4,7 @@
 
 ## 🚀 デモ
 
-[ライブデモを見る](https://sizimi920.github.io/quiz/) (GitHub Pages)
+[ライブデモを見る](https://quiz-seven-flame.vercel.app/)
 
 ## ✨ 機能
 
