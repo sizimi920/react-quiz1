@@ -10,7 +10,7 @@ export default function HomePage() {
         <p className={styles.subtitle}>
           あなたの知識を試してみましょう！
           <br />
-          全5問のクイズに挑戦してください。
+          クイズに挑戦してください。
         </p>
         <div className={styles.features}>
           <div className={styles.feature}>
